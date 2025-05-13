@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/questcast.css">
+  <title>Agende a Castração do Seu Pet</title>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>💉 Agende a castração do Seu Pet</h2>
+    <p>Proteja a saúde do seu pet! Preencha os dados abaixo e agende a castração com um profissional de confiança.</p>
+
+    <form>
+      <label for="nomePet">Nome do pet:</label>
+      <input type="text" id="nomePet" name="nomePet" placeholder="Ex: Rex">
+
+      <label>Espécie:</label>
+      <div class="species-options">
+        <label><input type="radio" name="especie" value="cão"> Cão</label>
+        <label><input type="radio" name="especie" value="gato"> Gato</label>
+      </div>
+
+      <label for="raca">Raça:</label>
+      <input type="text" id="raca" name="raca" placeholder="Ex: Poodle">
+
+      <label for="idade">Idade:</label>
+      <input type="text" id="idade" name="idade" placeholder="Ex: 2 anos">
+      
+      <label for="endereco">Endereço ou CEP:</label>
+      <input type="text" id="endereco" name="endereco" placeholder="Ex: 12345-678">
+
+      <label for="data">Data desejada:</label>
+      <input type="date" id="data" name="data">
+
+      <label for="horario">Horário preferido:</label>
+      <input type="time" id="horario" name="horario">
+
+      <label for="nomeTutor">Nome do tutor:</label>
+      <input type="text" id="nomeTutor" name="nomeTutor" placeholder="Seu nome completo">
+
+      <label for="telefone">Telefone / WhatsApp:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="(00) 91234-5678">
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="termos" name="termos">
+        <label for="termos">Aceito os termos de atendimento.</label>
+      </div>
+
+      <button type="submit" class="submit-button">Agendar agora</button>
+    </form>
+  </div>
+
+</body>
+</html>
