@@ -1,0 +1,254 @@
+
+body {
+  background-color: #EDE7F6;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #9C27B0;
+  padding-top: 20px; /* cria espaço para o logo */
+  height: auto; /* permite que o conteúdo defina a altura */
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 350px;
+  background-color: #86009A;
+  color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+#logo img{
+  width: 100px;
+}
+
+#logo h4 {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: large;
+}
+
+#logo h6 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+nav {
+  background-color: #BA68C8;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+}
+
+nav li a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/* Dropdown escondido por padrão */
+nav li ul {
+  display: none;
+  position: absolute;
+  background-color: #D1A3E3;
+  min-width: 160px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+/* Itens do dropdown */
+nav li ul li {
+  display: block;
+  text-align: left;
+}
+
+nav li ul li a {
+  padding: 12px 16px;
+  color: #5C0C6A;
+  display: block;
+}
+
+nav li ul li a:hover {
+  background-color: #BA68C8;
+  color: white;
+}
+
+/* Mostra o dropdown ao passar o mouse */
+nav li:hover ul {
+  display: block;
+}
+
+
+#entrar {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+#entrar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
+
+#entrar a:hover {
+  background-color: white;
+  color: #86009A;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.top-bar {
+  background: #f8d9f4;;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: white;
+  padding: 5px;
+}
+
+.menu {
+  background: #d291e4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.banner {
+  background: #f7cbf7;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner .bichinhos img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+
+.caixas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px 10px;
+  flex-wrap: wrap;
+}
+
+.box {
+  background: #e5aef5;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+}
+
+.box img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.box a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  background: #fff;
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #9223a9;
+  font-weight: bold;
+}
+
+footer {
+  background: #9223a9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.missao-visao-valores {
+  background-color: #f7f3fa;
+  padding: 40px 20px;
+  color: #4b2c5e;
+  text-align: center;
+}
+
+.missao-visao-valores h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #6c3483;
+}
+
+.missao-visao-valores p, .missao-visao-valores li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.missao-visao-valores ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container-info {
+  max-width: 1000px;
+  margin: 0 auto;
+}

@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo-texto{
+    margin-left:10px;
+    text-align: center;
+}  
+  
+  header {
+    background-color: #9C27B0;
+    padding-top: 20px; /* cria espaço para o logo */
+    height: auto; /* permite que o conteúdo defina a altura */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 350px;
+    background-color: #86009A;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  #logo img{
+    width: 100px;
+  }
+  
+  #logo h4 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+  }
+  
+  #logo h6 {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  nav {
+    background-color: #BA68C8;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  nav li a {
+    display: inline-block;
+    color: #5C0C6A;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+  }
+  
+  /* Dropdown escondido por padrão */
+  nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #D1A3E3;
+    min-width: 160px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
+  /* Itens do dropdown */
+  nav li ul li {
+    display: block;
+    text-align: left;
+  }
+  
+  nav li ul li a {
+    padding: 12px 16px;
+    color: #5C0C6A;
+    display: block;
+  }
+  
+  nav li ul li a:hover {
+    background-color: #BA68C8;
+    color: white;
+  }
+  
+  /* Mostra o dropdown ao passar o mouse */
+  nav li:hover ul {
+    display: block;
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+  }
+  
+  .top-bar {
+    background: #f8d9f4;;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+  }
+  
+  .menu {
+    background: #d291e4;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f6f4;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    color: #4a148c;
+    margin-bottom: 30px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 250px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.03);
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-content h3 {
+    margin: 10px 0 5px;
+    color: #333;
+  }
+
+  .card-content p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .whatsapp-btn {
+    margin-top: 10px;
+    background-color: #25d366;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .whatsapp-btn:hover {
+    background-color: #1ebe5d;
+  }

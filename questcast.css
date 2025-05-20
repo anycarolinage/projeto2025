@@ -1,0 +1,87 @@
+body {
+    background-color: #eaf3fb;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+
+  .form-container {
+    background-color: #f7ecf8;
+    border-radius: 25px;
+    padding: 30px 40px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    color: #2d2d2d;
+  }
+
+  p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+
+  label {
+    display: block;
+    margin: 12px 0 5px;
+    color: #333;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 10px 14px;
+    border-radius: 20px;
+    border: none;
+    background-color: 	#D8BFD8;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .species-options {
+    display: flex;
+    gap: 20px;
+    margin-top: 8px;
+  }
+
+  .species-options label{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    accent-color: #b147b5;
+  }
+
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .submit-button {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px;
+    background-color: #b147b5;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .submit-button:hover {
+    background-color: #850a85;
+  }

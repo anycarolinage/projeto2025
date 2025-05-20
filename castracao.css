@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Topo */
+  .topo {
+    background-color: #9122a2;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .logo h1 {
+    font-size: 22px;
+  }
+  
+  .logo p {
+    font-size: 12px;
+    margin-top: 3px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    background-color: #b563cd;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+  
+  .auth-links {
+    font-size: 14px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .submenu {
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: #b563cd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .submenu li {
+    margin-bottom: 5px;
+  }
+  
+  /* Introdução */
+  .intro {
+    background-color: #e6e2f1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .intro .descricao {
+    font-size: 18px;
+    color: #065e3b;
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo {
+    color: #a90c83;
+    margin-bottom: 20px;
+  }
+  
+  .fotos-intro img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  /* Castração Parte 1 */
+  .castracao-topo {
+    background-color: #f2f0f8;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-top: 5px solid purple;
+    align-items: center;
+  }
+  
+  .texto-castracao h3 {
+    font-size: 22px;
+    color: #000;
+    max-width: 600px;
+  }
+  
+  .castracao-topo img {
+    max-width: 200px;
+
+  }
+  
+  /* Castração Parte 2 */
+  .castracao-definicao {
+    background-color: #e6f7fb;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .castracao-definicao h2 {
+    font-size: 24px;
+
+  }
+  
+  .castracao-definicao p {
+    font-size: 18px;
+    max-width: 500px;
+  }
+  
+  .castracao-definicao img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  /* Gêneros */
+  .generos {
+    background-color: #e1cce7;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+  
+  .generos div {
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .generos img {
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Por que castrar */
+  .porque-castrar {
+    background-color: #e6f7fb;
+    padding: 40px;
+    text-align: center;
+    border-top: 5px solid purple;
+
+  }
+  
+  .porque-castrar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .porque-castrar p {
+    font-size: 18px;
+  }
+  
+  /* Benefícios */
+  .beneficios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f3e1f2;
+    padding: 40px 20px;
+
+  }
+  
+  .beneficios div {
+    max-width: 500px;
+    margin: 10px;
+  }
+  
+  .beneficios img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  .beneficios, .como-e-feita, .cuidados, .curiosidades {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.beneficios {
+    background-color: #ecdff3;
+    border-top: 5px solid purple;
+}
+
+.como-e-feita {
+    background-color: #e9f7fb;
+    border-top: 5px solid purple;
+}
+
+.cuidados {
+    background-color: #ecdff3;
+    border-top: 5px solid purple;
+}
+
+.curiosidades {
+    background-color: #e9f7fb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-top: 5px solid purple;
+}
+
+.curiosidades .texto {
+    flex: 1;
+    min-width: 250px;
+}
+
+.curiosidades .imagem img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #eaf7ff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-top: 5px solid purple;
+
+  }
+  
+  .card {
+    background-color: #f6e8f8;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card h1 {
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .agendar {
+    background-color: #a12aa3;
+    color: white;
+  }
+  
+  .agendar:hover {
+    background-color: #861e89;
+  }
+  
+  .saiba-mais {
+    background-color: #a12aa3;
+    color: white;
+  }
+  
+  .saiba-mais:hover {
+    background-color: #861e89;
+  }
+  
+  footer {
+    background-color: #a12aa3;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
