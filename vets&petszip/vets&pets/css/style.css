@@ -1,0 +1,364 @@
+body {
+    background-color: #FDDFFF;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    background-color: #9C27B0;
+    padding-top: 20px; /* cria espaço para o logo */
+    height: auto; /* permite que o conteúdo defina a altura */
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 350px;
+    background-color: #86009A;
+    color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+#logo-texto {
+    margin-left: 10px;
+    text-align: center;
+}
+
+#logo h4 {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: large;
+}
+
+#logo h6 {
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+nav {
+    background-color: #BA68C8;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    position: relative;
+}
+
+nav li a {
+    display: inline-block;
+    color: #5C0C6A;
+    text-decoration: none;
+    padding: 20px;
+}
+
+/* Dropdown escondido por padrão */
+nav li ul {
+    display: none;
+    position: absolute;
+    background-color: #D1A3E3;
+    min-width: 160px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+/* Itens do dropdown */
+nav li ul li {
+    display: block;
+    text-align: left;
+}
+
+nav li ul li a {
+    padding: 12px 16px;
+    color: #5C0C6A;
+    display: block;
+}
+
+nav li ul li a:hover {
+    background-color: #BA68C8;
+    color: white;
+}
+
+/* Mostra o dropdown ao passar o mouse */
+nav li:hover ul {
+    display: block;
+}
+
+#entrar {
+    display: flex;
+    gap: 10px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+#entrar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+#entrar a:hover {
+    background-color: white;
+    color: #86009A;
+}
+
+.descricao-gato p {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.secao-gatos {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.secao-gatos h2,
+.secao-gatos h1 {
+    font-size: 24px;
+}
+
+.pa {
+    color: #9728AA;
+    font-size: 20px;
+}
+
+.secao-gatos img {
+    width: 657px;
+    height: 339px;
+    border-radius: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bloco-titulo {
+    background-color: #9C27B0;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bloco-titulo h2 {
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.h2 {
+    text-align: center;
+}
+
+.p {
+text-align: left;    
+font-size: 20px;
+color: white;
+}
+
+.p5{
+    text-align: center;    
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    }
+
+.imagem-centralizada {
+    display: block;
+    margin: 20px auto;
+    width: 980.51px;
+    height: 287px;
+    border-radius: 200px;
+}
+
+.fundoF {
+    background-color: #9C27B0;
+}
+
+.bloco-chocolate {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #BA68C8;
+}
+
+.chocolate {
+    margin-right: -40px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+}
+
+.bloco-cebola {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FBBBFF;
+}
+
+.bloco-cebola .cebola {
+    width: 400px;
+    height: auto;
+    margin-left: -40px;
+    border-radius: 0 30px 30px 0;
+}
+
+.texto-cebola {
+    text-align: center;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.bloco-uva {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #BA68C8;
+}
+
+.uva {
+    margin-right: -40px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+}
+
+.bloco-ovo {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FBBBFF;
+}
+
+.bloco-ovo .ovo {
+    width: 400px;
+    height: auto;
+    margin-left: -40px;
+    border-radius: 0 30px 30px 0;
+}
+
+.texto-ovo {
+    text-align: center;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.bloco-figado {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #BA68C8;
+}
+
+.figado {
+    margin-right: -40px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+}
+
+.bloco-nozes {
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #FBBBFF;
+}
+
+.bloco-nozes .nozes {
+    width: 400px;
+    height: auto;
+    margin-left: -40px;
+    border-radius: 0 30px 30px 0;
+}
+
+.texto-nozes {
+    text-align: center;
+    flex: 1;
+    margin-right: 40px;
+}
+
+.bloco-gordura {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #BA68C8;
+}
+
+.gordura {
+    margin-right: -40px;
+    width: 400px;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+}
+
+.images {
+    display: flex;
+}
+
+.racao{
+    justify-content: center;
+}
+
+.gatos {
+    margin-top: 50px;
+    width: 400px;
+    height : 110px;
+    border-radius: 120px 0 0 120px;
+    margin-left: 518.9px;
+}
+
+.gatos2 {
+    width: 400px;
+    height: auto;
+    border-radius: 32px 0 0 32px;
+    margin-left: 518.9px;
+}
+
+.footer {
+    background-color: #6E107E;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+
+
+
+
